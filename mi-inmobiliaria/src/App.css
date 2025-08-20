@@ -1,0 +1,72 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f2f5;
+  margin: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Estilos de la barra de navegación */
+.navbar {
+  background-color: #fff;
+  padding: 15px 30px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  margin: 0 15px;
+  font-size: 18px;
+}
+
+.main-title {
+  text-align: center;
+  color: #333;
+}
+
+/* Contenedor de la lista de propiedades */
+.property-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Estilos de la tabla del admin */
+.admin-dashboard {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 30px;
+}
+
+.admin-dashboard table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.admin-dashboard th, .admin-dashboard td {
+  border-bottom: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+
+.admin-dashboard th {
+  background-color: #f2f2f2;
+}
+
+.status-available {
+  background-color: #28a745;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 12px;
+  font-size: 12px;
+}
